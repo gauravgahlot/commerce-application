@@ -1,2 +1,2 @@
 language: csharp
-solution: Decoupled_Commerce_Application.sln
+solution: DI_CommerceApplication.sln
