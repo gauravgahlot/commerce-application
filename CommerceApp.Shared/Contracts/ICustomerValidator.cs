@@ -1,6 +1,6 @@
 ﻿using CommerceApp.Shared.Models;
 
-namespace Commerce.Shared.Contracts
+namespace CommerceApp.Shared.Contracts
 {
     public interface ICustomerValidator
     {
