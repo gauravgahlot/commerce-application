@@ -15,7 +15,7 @@ namespace CommerceApp.Shared.Repositories
 
         public void UpdateInventoryForProduct(Product lineItem)
         {
-            System.Console.WriteLine($"Updating inventory for Product ID:{lineItem.Id} and Unit Price: ${lineItem.UnitPrice}");
+            System.Console.WriteLine($"Updating inventory for Product: {lineItem.Name} and Unit Price: ${lineItem.UnitPrice}");
             _products.First(p => p.Id == lineItem.Id).Quantity -= lineItem.Quantity;
         }
 

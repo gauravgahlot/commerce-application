@@ -2,7 +2,7 @@
 using CommerceApp.Shared.Models;
 using System;
 
-namespace CommerceApp.Providers
+namespace CommerceApp.Core
 {
     public class CreditCardProcessor : IPaymentProcessor
     {
