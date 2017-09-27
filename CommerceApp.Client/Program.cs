@@ -1,4 +1,5 @@
-﻿using CommerceApp.Core;
+﻿using Autofac;
+using CommerceApp.Core;
 using CommerceApp.Shared.Repositories;
 using System.Linq;
 
@@ -10,12 +11,10 @@ namespace CommerceApp.Client
         {
             // consuming the CommerceApp Core
             var order = new OrderRepository().Orders().First();
-            var app = new CommerceManager(
-                new StoreRepository(),
-                new CustomerValidator(), 
-                new CreditCardProcessor(), 
-                new EmailNotifier(),
-                new Logger());
+
+            // buuilding the container to resolve the CommerceManager
+            IContainer container = IoCBuilder.Build();
+            var app = container.Resolve<CommerceManager>();
 
             app.ProcessOrder(order);
 
