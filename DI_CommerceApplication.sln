@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommerceApp.Core", "Commerc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommerceApp.Client", "CommerceApp.Client\CommerceApp.Client.csproj", "{4BFAEBEA-A7AE-43F2-A6C4-C8A1DB8E3CD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommerceApp.Tests", "CommerceApp.Tests\CommerceApp.Tests.csproj", "{0FE9999E-35A2-457D-8D45-D7C47B054EC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4BFAEBEA-A7AE-43F2-A6C4-C8A1DB8E3CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BFAEBEA-A7AE-43F2-A6C4-C8A1DB8E3CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BFAEBEA-A7AE-43F2-A6C4-C8A1DB8E3CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE9999E-35A2-457D-8D45-D7C47B054EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE9999E-35A2-457D-8D45-D7C47B054EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE9999E-35A2-457D-8D45-D7C47B054EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE9999E-35A2-457D-8D45-D7C47B054EC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
